@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "linters": "eslint \"**/*.{js,jsx}\" & stylelint \"**/*.{css,scss}\"",
+    "eslint": "eslint \"**/*.{js,jsx}\" --fix",
+    "style": "stylelint \"**/*.{css,scss}\" --fix"
   },
   "dependencies": {
     "react": "^18.2.0",
